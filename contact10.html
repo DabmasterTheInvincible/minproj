@@ -1,0 +1,80 @@
+<html>
+<head>
+<title>Contact</title>
+<link href="https://fonts.googleapis.com/css2?display=swap&amp;family=Aboreto:ital,wght@0,400;1,400&amp;family=Abel:ital,wght@0,400;1,400" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
+<style>
+p
+{
+    color: #edadad;
+}
+input
+{
+    color: #edadad;
+}
+input:focus
+{
+    border-color: #edadad;
+    outline: #edadad;
+}
+</style>
+</head>
+<body class="fade-in-image">
+<div class="container b">
+<header>
+<h1>Contact</h1>
+</header>
+<section>
+<center>
+<form method="post" action=#>
+<label for="fname"><h4>Name: </h4></label>
+<input id="fname" name="fname" required/>
+<label for="em"><h4>Email: </h4></label>
+<input type="email" id="em" name="em" required/>
+<label for="phno"><h4>Phone No.: </h4></label>
+<input  id="phno" name="phno"/>
+</center>
+<center>
+<button type="submit" formaction="contact10.html" onsubmit="return validate()">Submit</button>
+</center>
+</form>
+</section>
+</div>
+<div class="container b">
+<center>
+<table>
+<tr>
+<td>
+<b><p>Email: </p></b>
+</td>
+<td><p>jenifer.s2022@vitstudent.ac.in</p></td>
+</tr>
+<tr>
+<td>
+<b><p>Tumblr: </p></b>
+</td>
+<td><a href="https://www.tumblr.com/blog/foulglittergladiator" target="_blank"><p class="zoom">foulglittergladiator</p></td>
+</tr>
+<tr>
+<td>
+<b><p>Instagram: </p></b>
+</td>
+<td><a class="zoom"href="https://www.instagram.com/sparklyglittergladiator/" target="_blank"><p class="zoom">sparklyglittergladiator</p></td>
+</tr>
+</table>
+</center>
+</div>
+<script>
+    function validate()
+    {
+        var x=document.getElementById("phno").value;
+        if(x.match(/^\+[0-9]{12}$/))
+        {
+            return true;
+        }
+        alert("Enter correct phone no. Add country code to start.");
+        return false;
+    }
+</script>
+</body>
+</html>

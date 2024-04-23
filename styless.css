@@ -1,0 +1,28 @@
+p
+{
+font-family: Abel;
+text-align: justify;
+}
+h1
+{
+font-family: Aboreto;
+text-align: center;
+}
+a:link
+{
+color:#edadad;
+}
+a:visited
+{
+color:#edadad;
+}
+body
+{
+padding: 20px;
+}
+.zoom:hover 
+{
+-ms-transform: scale(1.025); 
+-webkit-transform: scale(1.025); 
+transform: scale(1.025); 
+}

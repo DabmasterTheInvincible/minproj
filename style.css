@@ -1,0 +1,195 @@
+body
+{
+background-image:url('assets/red.png');
+background-size: cover;
+}
+p
+{
+font-family: Abel;
+text-align: justify;
+}
+h1
+{
+font-family: Aboreto;
+text-align: center;
+}
+h2,h4,h3
+{
+font-family: Abel;
+}
+div
+{
+padding: 2.5px;
+}
+hr
+{
+border-color: #edadad;
+}
+.b
+{
+margin: 45px;
+background-image: linear-gradient(45deg,#ffc4c4,#ffffff);
+color: #edadad;
+border-radius: 50px;
+padding: 30px;
+}
+.timeline 
+{
+position: relative;
+max-width: 1200px;
+margin: 0 auto;
+}
+.timeline::after 
+{
+content: '';
+position: absolute;
+width: 6px;
+background-color: #ff7c7c;
+top: 0;
+bottom: 0;
+left: 50%;
+margin-left: -3px;
+}
+.timeline-item 
+{
+padding: 10px 40px;
+position: relative;
+background-color: inherit;
+width: 45%;
+}
+.timeline-item:nth-child(even) 
+{
+left: 5%;
+}
+.timeline-item:nth-child(odd) 
+{
+left: 50%;
+}
+.timeline-content 
+{
+padding: 20px 30px;
+background-color: #f4f4f4;
+position: relative;
+border-radius: 6px;
+}
+.timeline-icon 
+{
+position: absolute;
+width: 20px;
+height: 20px;
+background-color: #ff7c7c;
+top: 15px;
+left: -10px;
+border-radius: 50%;
+}
+.timeline-icon1 
+{
+position: absolute;
+width: 20px;
+height: 20px;
+background-color: #ff7c7c;
+top: 15px;
+left: 285.5px;
+border-radius: 50%;
+}
+@keyframes fadeIn 
+{
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+.fade-in-image 
+{ animation: fadeIn 3s; }
+* 
+{
+box-sizing: border-box;
+}
+.zoom:hover 
+{
+-ms-transform: scale(1.025); 
+-webkit-transform: scale(1.025); 
+transform: scale(1.025); 
+}
+.p
+{
+font-family: Abel;
+text-align: justify;
+}
+.b{
+margin: 45px;
+background-image: linear-gradient(45deg,#ffc4c4,#ffffff);
+color: #edadad;
+border-radius: 50px;
+padding: 30px;
+}
+.c
+{
+font-size: 90%;
+}
+.d
+{
+list-style-type:circle;
+}
+button
+{
+background-color: #ff7474;
+box-shadow: 10px;
+border-color: #ff7474;
+border-radius: 10px;
+padding: 10px;
+margin-top: 30px;
+font-family: Abel;
+color: #ffffff;
+}
+input
+{
+border-radius: 10px;
+border-color: white;
+}
+a:link
+{
+color:#edadad;
+}
+a:visited
+{
+color: #edadad;
+}
+span
+{
+font-family: Abel;
+}
+hr
+{
+color: #edadad;
+}
+mark
+{
+color: #ff2121;
+background-color: inherit;
+}
+.dot {
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: rgba(220, 151, 151, 0);
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+.mySlides {
+display: none;
+margin-top: 7.5%;
+}
+.slideshow-container {
+max-width: 1000px;
+max-height: 900px;
+position: relative;
+margin: auto;
+}
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+}
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
